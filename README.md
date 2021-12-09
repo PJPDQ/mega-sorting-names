@@ -20,9 +20,9 @@ Additional components:
 
 The program is built in Java version 16. The IDE used in building the program is Intellij IDE (v. 2021.3). 
 The task is:
-- takes as a parameter a string that represents a text file containing a list of names.
-- Orders the names by the last name followed by first name
-- Creates a new text file called <input file name>-sorted.txt with the list of sorted names.
+[x] takes as a parameter a string that represents a text file containing a list of names.
+[x] Orders the names by the last name followed by first name
+[x] Creates a new text file called <input file name>-sorted.txt with the list of sorted names.
 
 ## Running the program by opening the project in your selected IDE (preferrably Intellij).
 Go to `Add Configuration...` >  Click on the **+** button on the top left corner > Select the `Application`.
@@ -49,13 +49,7 @@ Please select any of them > Click **OK**
 
 ------------------------------------------------------------------------------------------------------------------
 Example testcase (testcase.txt):
-BAKER, THEODORE
-SMITH, ANDREW
-KENT, MADISON
-SMITH, FREDRICK
+> BAKER, THEODORE\nSMITH, ANDREW\nKENT, MADISON\nSMITH, FREDRICK
 
 Expected Output (testcase-sorted.txt):
-BAKER, THEODORE
-KENT, MADISON
-SMITH, ANDREW
-SMITH, FREDRICK
+>BAKER, THEODORE\nKENT, MADISON\nSMITH, ANDREW\nSMITH, FREDRICK
