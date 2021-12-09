@@ -49,7 +49,19 @@ Please select any of them > Click **OK**
 
 ------------------------------------------------------------------------------------------------------------------
 Example testcase (testcase.txt):
-> BAKER, THEODORE\nSMITH, ANDREW\nKENT, MADISON\nSMITH, FREDRICK
+> BAKER, THEODORE
+>
+> SMITH, ANDREW
+> 
+> KENT, MADISON
+>
+> SMITH, FREDRICK
 
 Expected Output (testcase-sorted.txt):
->BAKER, THEODORE\nKENT, MADISON\nSMITH, ANDREW\nSMITH, FREDRICK
+> BAKER, THEODORE
+> 
+> KENT, MADISON
+> 
+> SMITH, ANDREW
+> 
+> SMITH, FREDRICK
